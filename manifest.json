@@ -1,0 +1,27 @@
+{
+    "name": "Content Script Demo Part Two",
+    "description": "How to use a more robust content script in a chrome extension.",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": [
+      "scripting",
+      "webRequest",
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://medium.com/me/stats"],
+        "runAt": "document_end",
+        "js": ["content-injection.js"]
+      }
+    ],
+    "background": {
+      "service_worker" : "background-injection.js"
+    },
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action":{
+        "default_title": "Content Script Demo Part Two"
+    }
+}
