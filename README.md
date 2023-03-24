@@ -57,9 +57,9 @@ This is the source code for my Medium blog post, "Add A Content Script To Your C
 
 ## Part One
 
-To see code for Part One of this series, go [this repo](). 
+To see code for Part One of this series, go [this repo](https://github.com/macro6461/content-script-demo-part-one). 
 
-To see the blog post for Part One of this series, it can be found on [Medium]().
+To see the blog post for Part One of this series, it can be found on [Medium](https://levelup.gitconnected.com/add-a-content-script-to-your-chrome-extension-part-one-3e96b62b9426).
 
 [Upgrade your free Medium membership](https://matt-croak.medium.com/membership) and receive unlimited, ad-free, stories from thousands of writers on a wide variety of publications. This is an affiliate link and a portion of your membership helps me be rewarded for the content I create.
 
